@@ -104,6 +104,10 @@
 .rank-img{
     width: 50px;
     height: 50px;
+    margin-bottom: 20px;
+}
+.rank-num{
+    font-size: 50px;
 }
 .rank-card{
     border: none;
@@ -114,6 +118,76 @@ color: white;
 .rank-card:hover{
     background-color: #152b45;
 }
+
+/* testimonial */
+.testimonial-bg{
+    background-image: url('/Images/testimonial-bg.png');
+    margin-top: 50px;
+}
+.image {
+    position: relative;
+    width: 520px;
+}
+.image__img {
+    display: block;
+    width: 100%;
+}
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.play-icon{
+    color: #ff7214;
+}
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+.image__overlay--primary {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+}
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.image__overlay:hover {
+    opacity: 1;
+}
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+}
+.image__description {
+    margin-top: 0.25em;
+}
+.client-img{
+    width: 130px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.client-arrow{
+    width: 6%;
+    padding: 3px;
+}
+.client-tes-part{
+    width: 55%;
+    margin-left: 65px;
+}
+
 /* experienced part */
 .card-title-exp:hover{
     color: #ff7214;
@@ -122,6 +196,7 @@ color: white;
     color: #ff7214;
 
 }
+
 /* blog part */
 .blog-img{
     width: 358px;
