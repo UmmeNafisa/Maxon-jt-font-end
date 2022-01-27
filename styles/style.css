@@ -2,17 +2,27 @@
 
 .popping{
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
 }
+.large-font{
+    font-size: 60px;
+}
+
 .roboto{
     font-family: 'Roboto', sans-serif;
 }
+.font-14{
+    font-size: 14px;
+}
+
 /* banner part */
 .banner{
-   background-image: url("/Images/bg-1.png");
+   background-image: url("/Images/banner-bg.png");
    background-repeat: no-repeat;
    background-size: cover;
    height: 100vh;
+}
+.banner-width{
+    width: 40%;
 }
 .btn-color{
     background-color: #ff7214;
@@ -23,8 +33,8 @@
 }
 .banner-img{
     width: 500px;
-
 }
+/* feature part */
 .feature-img{
     width: 30px;
     height: 30px;
@@ -55,6 +65,7 @@
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 /* about part */
 .about-bg{
     background-image: url('/Images/about-bg.jpg');
@@ -232,4 +243,16 @@ color: white;
 }
 
 
-/* media query */
+/*....................
+      media query
+.................... */
+
+/* mobile screen */
+@media screen and (max-width: 688px) {
+
+}
+
+/* Tablet screen */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    
+}
