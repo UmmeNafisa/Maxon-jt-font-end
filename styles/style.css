@@ -44,6 +44,10 @@
     width: 550px;
 }
 /* feature part */
+.feature-bg{
+    background-image: url('/Images/feature-bg.png');
+    background-size: cover;
+}
 .feature-img{
     width: 30px;
     height: 30px;
@@ -311,6 +315,10 @@ color: white;
     .form{
         width: 100%;
     }
+    .insta-img{
+        width: 150px;
+        height: 120px;
+    }    
 }
 
 /* Tablet screen */
@@ -323,6 +331,33 @@ color: white;
         width: 320px;
     }
     .banner{
-        height: 800px;
+        height: 900px;
     }
+    .large-font{
+        font-size: 40px;
+    }
+    .banner-width{
+        width: 80%;
+        margin-top: 100px;
+    }
+    .about-img-1{
+        width: 210px;
+        height: 250px; 
+    }
+    .about-img-2{
+        width: 210px;
+        height: 250px;
+    }
+    .year-exp{
+        margin-left: 215px;
+        margin-top: -80px;
+    }
+    .image__img{
+        width: 100%;
+    }
+    .image {
+     position: relative;
+     width: 450px;
+     height: 400px;
+     }
 }
